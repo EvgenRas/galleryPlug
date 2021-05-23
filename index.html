@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<ul id="filter">
+		<li><a class="active" href="#" data-group="all">All</a></li>
+		<li><a href="#" data-group="red">Red</a></li>
+		<li><a href="#" data-group="green">Green</a></li>
+		<li><a href="#" data-group="blue">Blue</a></li>
+		<li><a href="#" data-group="numbers">Numbers</a></li>
+		<li><a href="#" data-group="letters">Letters</a></li>
+		<li><a href="#" data-group="square">Squares</a></li>
+		<li><a href="#" data-group="circle">Circles</a></li>		
+	</ul>
+	<div id="page">
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+	</div>
+
+<ul id="filter1">
+		<li><a class="active" href="#" data-group="all">All</a></li>
+		<li><a href="#" data-group="red">Red</a></li>
+		<li><a href="#" data-group="green">Green</a></li>
+		<li><a href="#" data-group="blue">Blue</a></li>
+		<li><a href="#" data-group="numbers">Numbers</a></li>
+		<li><a href="#" data-group="letters">Letters</a></li>
+		<li><a href="#" data-group="square">Squares</a></li>
+		<li><a href="#" data-group="circle">Circles</a></li>		
+	</ul>
+	<div id="page1">
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>3</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>5</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>D</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>1</div>
+		<div class="num red circle"   data-groups='["all", "numbers", "red", "circle"]'>4</div>
+		<div class="num red"   data-groups='["all", "numbers", "red", "square"]'>7</div>
+		<div class="num green circle" data-groups='["all", "numbers", "green", "circle"]'>8</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>B</div>
+		<div class="num green" data-groups='["all", "numbers", "green", "square"]'>2</div>
+		<div class="num green circle" data-groups='["all", "letters", "green", "circle"]'>C</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>9</div>
+		<div class="num red"   data-groups='["all", "letters", "red", "square"]'>E</div>
+		<div class="num blue circle"  data-groups='["all", "letters", "blue", "circle"]'>G</div>
+		<div class="num blue"  data-groups='["all", "letters", "blue", "square"]'>A</div>
+		<div class="num blue"  data-groups='["all", "numbers", "blue", "square"]'>6</div>
+		<div class="num green" data-groups='["all", "letters", "green", "square"]'>F</div>
+	</div>
+	<div id="pagination"></div>
+	<script src="main.js"></script>
+</body>
+</html>
